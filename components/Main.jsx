@@ -1,3 +1,7 @@
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+
 const Main = () => {
   return (
     <div className='w-full h-screen text-center'>
@@ -16,6 +20,20 @@ const Main = () => {
             responsive front-end web applications while learning back-end
             technologies.
           </p>
+          <div className='flex items-center justify-between m-auto py-4 max-w-[330px]'>
+            <div className='rounded-full text-[#5651e5] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <FaLinkedinIn />
+            </div>
+            <div className='rounded-full text-[#5651e5] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <FaGithub />
+            </div>
+            <div className='rounded-full text-[#5651e5] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <AiOutlineMail />
+            </div>
+            <div className='rounded-full text-[#5651e5] shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <BsFillPersonLinesFill />
+            </div>
+          </div>
         </div>
       </div>
     </div>
