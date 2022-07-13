@@ -13,15 +13,15 @@ const Navbar = () => {
   };
 
   return (
-    <>
-      <div className='w-full fixed  shadow-xl p-2 '>
-        <div className='flex justify-between items-center w-full h-full px-2 2xl:px-6'>
-          <Image
-            src='/../public/assets/ehizLogo.png'
-            alt='/'
-            width='120'
-            height='80'
-          />
+    <div className='w-full fixed shadow-xl p-2 z-100'>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-6'>
+        <Image
+          src='/../public/assets/ehizLogo.png'
+          alt='/'
+          width='120'
+          height='80'
+        />
+        <div>
           <ul className='hidden md:flex'>
             <Link href='/'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
@@ -51,7 +51,7 @@ const Navbar = () => {
 
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70 ' : ''
         }
       >
         <div
@@ -120,7 +120,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default Navbar;
