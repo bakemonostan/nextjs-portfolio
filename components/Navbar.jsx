@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='w-full fixed shadow-xl p-2 z-100'>
+    <div className='w-full top-0 shadow-xl p-2 fixed z-[100] bg-slate-100'>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-6'>
         <Image
           src='/../public/assets/ehizLogo.png'
